@@ -150,6 +150,66 @@ body {
 
 /* Todays Agenda Section */
 
+.template2 {
+    display: flex;
+}
+.section1  {
+    display: block;
+    margin-left: 250px;
+}
+.todays{
+    background-color: #ecbf0c;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 25px 36px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: relative;
+    width: 350px;
+    text-align: center;
+    margin: 40px 0px;
+}
+.parabox {
+    background-color:  #9c8bef;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 36px;
+    width: 351px;
+    border-radius: 7px;
+    border: 2px solid black;
+    position: relative;
+    top: -20px;
+}
+.section2 {
+    margin-left: 100px;
+    display: inline;
+    margin-top: 72px;
+}
+.discription span {
+    background-color: #ecbf0c;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 15px 45px;
+    border: 1px solid #000;
+    border-radius: 44px;
+    position: relative;
+    text-align: center;
+    left: 82px;
+    top: 22px;   
+}
+.help {
+    background-color: rgb(108, 82, 133);
+    border-radius: 7px;
+    width: 350px;
+    border: 2px solid black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 125px 30px;
+}
 
 /* class-room-polices-section */
 
