@@ -151,7 +151,7 @@ body {
 /* Todays Agenda Section */
 
 .today-agenda-section {
-    background-color:#fffbe0;
+    background-color: #fffbe0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -159,7 +159,7 @@ body {
 }
 
 .today-agenda-title {
-    background-color:#ffd83f;
+    background-color: #ffd83f;
     font-size: 32px;
     font-weight: 900;
     padding: 25px 36px;
@@ -170,27 +170,28 @@ body {
     text-align: center;
     margin: 25px 0px;
 }
-.today-ag-icon{
+
+.today-ag-icon {
     margin-top: -7px;
 }
 
 .today-agenda-box {
-    background-color:#feb0e1;;
+    background-color: #feb0e1;
     font-size: 25px;
     font-weight: 400;
     padding: 20px 36px;
     width: 351px;
     border-radius: 7px;
-    border: 2px solid black;   
+    border: 2px solid black;
 }
 
-.reminder-card{
+.reminder-card {
     margin-left: 100px;
     margin-top: 72px;
 }
 
 .reminder-card-title span {
-    background-color:#ffd83f;
+    background-color: #ffd83f;
     font-size: 32px;
     font-weight: 900;
     padding: 15px 45px;
@@ -202,13 +203,13 @@ body {
 }
 
 .reminder-card-text {
-    background-color:#9c8bef;
+    background-color: #9c8bef;
     border-radius: 7px;
     width: 350px;
     border: 2px solid black;
     text-align: center;
     font-size: 25px;
-    font-weight: 400;   
+    font-weight: 400;
     padding: 121px 45px;
 }
 
@@ -335,7 +336,7 @@ body {
     left: 295px;
 }
 
- /* Class Calender */
+/* Class Calender */
 
 .class-calender-section {
     background-color: #fffbe0;
@@ -613,5 +614,3 @@ body {
     height: 160px;
     border: 2px solid black;
 }
-
-/* class calender section */
