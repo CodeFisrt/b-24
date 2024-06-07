@@ -153,11 +153,13 @@ body {
 .template2 {
     display: flex;
 }
-.section1  {
+
+.section1 {
     display: block;
     margin-left: 250px;
 }
-.todays{
+
+.todays {
     background-color: #ecbf0c;
     font-size: 32px;
     font-weight: 900;
@@ -169,8 +171,9 @@ body {
     text-align: center;
     margin: 40px 0px;
 }
+
 .parabox {
-    background-color:  #9c8bef;
+    background-color: #9c8bef;
     font-size: 25px;
     font-weight: 400;
     padding: 20px 36px;
@@ -180,11 +183,13 @@ body {
     position: relative;
     top: -20px;
 }
+
 .section2 {
     margin-left: 100px;
     display: inline;
     margin-top: 72px;
 }
+
 .discription span {
     background-color: #ecbf0c;
     font-size: 32px;
@@ -195,8 +200,9 @@ body {
     position: relative;
     text-align: center;
     left: 82px;
-    top: 22px;   
+    top: 22px;
 }
+
 .help {
     background-color: rgb(108, 82, 133);
     border-radius: 7px;
@@ -334,6 +340,149 @@ body {
     left: 295px;
 }
 
+/* Class Calender */
+
+
+/* class Resources */
+
+.template7 {
+    background-color: #3ea66b;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.classresorces {
+    position: relative;
+    top: 170px;
+
+}
+
+.resources {
+    background-color: #ecbf0c;
+    font-size: 40px;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.glass1 {
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid black;
+    position: absolute;
+    left: -25px;
+    top: 20px;
+    color: #fff;
+}
+
+.assign {
+    font-size: 25px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    width: 333px;
+    font-weight: 300;
+}
+
+.addlinks {
+    position: relative;
+    left: 400px;
+}
+
+.add1 {
+    padding: 15px 140px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* meet the teacher section */
+
+.meet-the-teacher-section {
+    padding: 50px;
+}
+.meet {
+    background-color:#ffd83f;
+    font-size: 50px;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: relative;
+    width: 550px;
+    left: 500px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.women1 {
+    background-color: tomato;
+    padding: 8px;
+    border: 1px solid black;
+    position: absolute;
+    left: -20px;
+    top: 7px;
+    color: #fff;
+}
+.techcontact {
+    display: flex;
+}
+.techinfo {
+    position: relative;
+    left:230px;
+}
+.teacher {
+    padding: 10px 40px;
+    width: 480px;
+    margin-top: 50px;
+    background-color: #5cd1ff;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.teacher h2 {
+    display: flex;
+    justify-content: center;
+}
+.teacher span  {
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact {
+    padding: 10px 40px;
+    width: 480px;
+    margin-top: 20px;
+    background-color:#f9b2dc;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.contact span {
+    font-size: 19px;
+    font-weight: 500;
+}
+.ladypic {
+    position: relative;
+    left: 310px;
+    top: 100px;
+}
+.ladypic img {
+    border-radius: 90%;
+    border: 3px solid black;
+}
+
+
+
+
+
+
+
 /*resource-page-for-parent-section */
 
 .resource-page-for-parent-section {
@@ -375,7 +524,7 @@ body {
 .class-news-section {
     background-color: #3ea66b;
     padding: 40px 100px;
-   
+
 }
 
 .class-news-text-box-main {
@@ -491,7 +640,6 @@ body {
     border: 1px solid black;
     margin: 5px;
     text-decoration: none;
-
     font-weight: 400;
     padding: 30px;
     color: black;
