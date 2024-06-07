@@ -150,17 +150,16 @@ body {
 
 /* Todays Agenda Section */
 
-.template2 {
+.today-agenda-section {
+    background-color:#fffbe0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
 }
 
-.section1 {
-    display: block;
-    margin-left: 250px;
-}
-
-.todays {
-    background-color: #ecbf0c;
+.today-agenda-title {
+    background-color:#ffd83f;
     font-size: 32px;
     font-weight: 900;
     padding: 25px 36px;
@@ -169,52 +168,48 @@ body {
     position: relative;
     width: 350px;
     text-align: center;
-    margin: 40px 0px;
+    margin: 25px 0px;
+}
+.today-ag-icon{
+    margin-top: -7px;
 }
 
-.parabox {
-    background-color: #9c8bef;
+.today-agenda-box {
+    background-color:#feb0e1;;
     font-size: 25px;
     font-weight: 400;
     padding: 20px 36px;
     width: 351px;
     border-radius: 7px;
-    border: 2px solid black;
-    position: relative;
-    top: -20px;
+    border: 2px solid black;   
 }
 
-.section2 {
+.reminder-card{
     margin-left: 100px;
-    display: inline;
     margin-top: 72px;
 }
 
-.discription span {
-    background-color: #ecbf0c;
+.reminder-card-title span {
+    background-color:#ffd83f;
     font-size: 32px;
     font-weight: 900;
     padding: 15px 45px;
     border: 1px solid #000;
     border-radius: 44px;
     position: relative;
-    text-align: center;
-    left: 82px;
+    left: 101px;
     top: 22px;
 }
 
-.help {
-    background-color: rgb(108, 82, 133);
+.reminder-card-text {
+    background-color:#9c8bef;
     border-radius: 7px;
     width: 350px;
     border: 2px solid black;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     font-size: 25px;
-    font-weight: 400;
-    padding: 125px 30px;
+    font-weight: 400;   
+    padding: 121px 45px;
 }
 
 /* class-room-polices-section */
@@ -340,25 +335,116 @@ body {
     left: 295px;
 }
 
-/* Class Calender */
+ /* Class Calender */
 
+.class-calender-section {
+    background-color: #fffbe0;
+    padding: 40px;
+}
+
+.class-calender-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-calender-main p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.class-cal-title {
+    margin-left: 47px;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+    padding: 10px;
+}
+
+.days a {
+    padding: 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    background-color: #9c8bef;
+    margin: 5px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timesubject {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    padding: 30px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject {
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customize {
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* class Resources */
 
-.template7 {
+.class-resources-section {
     background-color: #3ea66b;
-    padding: 50px 100px;
+    padding: 40px 100px;
     display: flex;
 }
 
-.classresorces {
-    position: relative;
-    top: 170px;
-
+.class-resorces-title {
+    margin-top: 100px;
 }
 
-.resources {
-    background-color: #ecbf0c;
+.class-resources {
+    background-color: #ffd83f;
     font-size: 40px;
     font-weight: 900;
     border: 2px solid #000;
@@ -370,28 +456,21 @@ body {
     padding: 10px;
 }
 
-.glass1 {
-    background-color: pink;
+.cls-res-icon {
     padding: 15px;
-    border: 1px solid black;
-    position: absolute;
-    left: -25px;
     top: 20px;
-    color: #fff;
 }
 
-.assign {
+.class-res-text {
     font-size: 25px;
-    position: relative;
-    left: 200px;
-    top: 30px;
+    padding: 20px 20px;
+    margin-left: 200px;
     width: 333px;
     font-weight: 300;
 }
 
 .addlinks {
-    position: relative;
-    left: 400px;
+    margin-left: 100px;
 }
 
 .add1 {
@@ -536,97 +615,3 @@ body {
 }
 
 /* class calender section */
-
-.class-calender-section {
-    background-color: #fffbe0;
-    padding: 40px;
-}
-
-.class-calender-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.class-calender-main p {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.class-cal-title {
-    margin-left: 47px;
-}
-
-.days {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 175px;
-    padding: 10px;
-}
-
-.days a {
-    padding: 30px;
-    border: 1px solid black;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
-    background-color: #9c8bef;
-    margin: 5px;
-    height: 45px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.timesubject {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.time {
-    padding: 30px;
-    background-color: tomato;
-    border: 1px solid black;
-    margin: 5px;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 30px;
-    color: black;
-    height: 45px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.subject {
-    border: 1px solid black;
-    margin: 5px;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 30px;
-    color: black;
-    height: 45px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.customize {
-    border: 1px solid black;
-    margin: 5px;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 30px;
-    color: black;
-    height: 45px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
