@@ -307,7 +307,6 @@ span.line {
 .calender-text-icon {
     color: #F36823;
 
-
 }
 
 .btn-clr {
@@ -366,20 +365,13 @@ span.line {
     padding: 10px 33px;
 }
 
-.lessons-content {
-    height: 53px;
-    margin-left: 120px;
-    background-color: #F5F7FA;
-    padding: 15px 25px;
-    /* border-bottom: 1px solid black ; */
-    border: 1px solid #0000001A;
-}
 
-.lessons-1-img {
-    margin-left: 120px;
-    padding: 35px 22px;
-    height: 241px;
+/* new css for lesssons */
+
+.lessons{
+    background-color:#F5F7FA;
     border: 1px solid #0000001A;
+    margin-left: 110px;
 }
 
 .left-card {
@@ -437,6 +429,7 @@ section.CTA a.download-brochure {
     text-transform: capitalize;
     padding: 10px 20px
 }
+
 
 
 
