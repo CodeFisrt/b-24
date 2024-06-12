@@ -1,0 +1,74 @@
+
+.skillset-section {
+    background-color: #414142;
+    text-align: center;
+}
+.line {
+    width: 29px;
+    height: 2px;
+    background-color: #F36823;
+    display: flex;
+    justify-content: center;
+}
+.page-navigation {
+    display: flex;
+    justify-content: center;
+   
+}
+.page-navigation .breadcrumb-item,a{
+    color: #fff ;
+}
+.page-navigation .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff !important;
+}
+.page-title {
+    color: #fff;
+    font-size: 36px;
+    /* padding: 0px 320px; */
+}
+.img-part {
+    position: relative;
+    top: 115px;
+}
+
+@media (min-width: 320px) { 
+    .page-title {
+        font-size: 18px;
+    }
+    .img-part {
+        top: 0px;
+    }
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .img-part {
+        position: relative;
+        top: 0px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .page-title {
+        font-size: 36px;
+    }
+    .img-part {
+        top: 115px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
