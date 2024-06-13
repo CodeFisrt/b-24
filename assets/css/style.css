@@ -14,6 +14,10 @@
  line-height: 10px;
  transform: translate(-290px,-220px);
 }
+ /* .Container .ray-image {
+  width: 10%;
+ } */
+
 .girl-name{
   font-size: 70px;
   margin: 1px 0px;
@@ -164,29 +168,9 @@ font-size: 90px;
   background-color:rgb(239, 239, 236);
   color: #333;
   background-size: cover;
-  padding: 10px 100px;
+  padding: 1px 0px;
   position: relative;
   text-align: center;
-}
-.contact-info{
-  display: flex;
-  justify-content: center;
-  margin: 80px 4px 50px 4px;
-}
-.work img{
-
-  width: 573px;
-  height: 250px;
-  /* margin: 0px 0px 0px 1px; */
-  /* position: relative;
-  top: 10px;
-  left: 380px;*/
-  border-top-left-radius: 150px;
-  border-top-right-radius: 150px;
-  display: block;
-  opacity: 1.0;
-  transform: translate(386.169183px, 24.401547px) rotate(0deg);
-    transform-origin: 624.50607239px 416.07717073px;
 }
 .work h1{
   font-size: 50px;;
@@ -197,48 +181,51 @@ font-size: 90px;
   position: relative;
   padding: 25px
 }
+.work img{
+  width: 643px;
+  height: 226px;
+ 
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  display: block;
+  opacity: 1.0;
+  transform: translate(404.169183px, 24.401547px) rotate(0deg);
+  transform-origin: 624.50607239px 416.07717073px;
+}
+
 .contact-info{
-width: 70vw;
+width: 80vw;
 height: auto;
 margin: 50px;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 font-size: 20px;
-padding: 60px;
+padding: 36px 80px;
 align-items: center;
 }
-.black-section {
-  background-color: #000000;
-  color: #fff;
-  margin: -100px;
-  padding: 23px;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center; 
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
+
 .contact-info h1{
   text-decoration: underline;
 }
 
-/* .bg-black-section {
+.bg-black-section {
   background-color: #000000;
   padding: 10px;
-}*/
+}
 
-.on-footer-section {
+ .on-footer-section {
   width: 1118px;
   margin: 0 auto;
   display: block;
   overflow: hidden;
-}
+} 
 
 .on-footer-section a:last-child {
   float: right;
   overflow: hidden;
-}
+ 
+} 
 
 .on-footer-section a {
   font-family: "Roboto", sans-serif;
@@ -247,21 +234,14 @@ align-items: center;
   padding: 10px;
   border: none;
   text-decoration-line: none;
-
 }
 
-.on-footer-section a.active {
-  color: #393939;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 6px 29px 6px;
-}
-
-.on-footer-section a:hover {
-  border-radius: 100px;
+ .on-footer-section a:hover {
+  border-radius: 1000px;
   display: block;
-  background-color: #191919;
-  
+  background-color: #6fcbd1;
+  color: #ffffff;
+
 }  
 
 
