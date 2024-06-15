@@ -849,6 +849,7 @@ section.CTA a.download-brochure {
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
 .line {
    border-bottom: 2px solid #F36823;
    width: 30px;
@@ -859,33 +860,25 @@ body {
     color: #07294D;
 }
 .sucesses-stories-start {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .sucesses-stories {
     padding-top: 70px;
 }
-.tringles {
-    left: 30px;
-    position: absolute;
-    bottom: 169px;
-}
-.ellipse-imge {
-    border: 2px solid #F69320;
-    position: absolute;
-    bottom: 245px;
-}
 .tringles-1 {
-    left: 29px;
+    left: 25px;
     position: absolute;
-    bottom: 178px;
+    bottom: 167px;
+}
+.raju-datta{
+    display: flex;
+    justify-content: space-around;
 }
 .raju-datta-imge {
     border: 2px solid #F69320;
     position: absolute;
-    bottom: 260px;
-}
-.capgemini {
-    padding-left: 335px;
+    left: 10px;
+    top: -28px;
 }
 .per-info {
     position: relative;
@@ -897,19 +890,7 @@ body {
     background-color: #F5F7FA;
     position: relative;
 }
-.mahindra {
-    padding-left: 385px;
-}
-.yatin-rajesh-imge {
-    border: 2px solid #F69320;
-    position: absolute;
-    bottom: 307px;
-}
-.tringles-2 {
-    left: 28px;
-    position: absolute;
-    bottom: 199px;
-}
+
 .identity {
     color: #919394;
     font-weight: 400;
