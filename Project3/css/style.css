@@ -1,0 +1,149 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    overflow-x: hidden;
+}
+.content-text{
+    padding-left: 70px;
+    font-size: 56px;
+    padding-top: 70px;
+    font-weight: 700;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+
+.img-text{
+    width:200px;
+}
+
+
+.lorem-text{
+ font-size: 18px;
+    
+    font-size:22px ;  
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+.about-text{
+    display: flex;
+    justify-content: center;
+    padding: 0px 290px;
+}
+.color-wrap{
+    background-color: #0fa797;
+    height: 200px;
+   
+}
+.about-text-lorem{
+    display: flex;
+    justify-content: center;
+    padding: 0px 230px;
+    font-size: 18px;
+}
+.about-wrap{
+    padding-top: 500px;
+}
+.space-text{
+    width: 320px;
+    height: 400px;
+}
+.come-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+
+}
+.come-text-get{
+font-family: 'Heebo', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 300px;
+}
+.come-text-wrap{
+    font-family: 'Heebo', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #f89719;
+}
+ .doler-text{
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+ 
+}
+.mard-text{
+    display: flex;
+    justify-content: space-between;
+}
+.mard-text-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.space-text-png{
+    width: 320px;
+    height: 320px;
+}
+.carousel-inner-wrap{
+    
+   padding: 200px 300px;
+    background-color: #0fa797;
+    color: white;
+}
+
+
+.carousel-item{
+    padding-top: 150px;
+}
+.lorem-text-wrap{
+    padding-top: 200px;
+padding-right:10px ;
+
+}
+.image-text{
+    color: #0fa797;
+}
+.mario-text{
+    display: flex;
+    justify-content: center;
+}
+.img-gallery{
+   width:1500px;
+    height:550px;
+   
+}
+
+i:hover{
+    color: red;
+   
+}
+.form-text{
+   
+    position: absolute;
+    top: 0;
+    left: 920px;
+    width: 29%;
+    height: 100%;
+    z-index:9;
+    background-color: #0fa797;
+}
+
+.intro-text{
+    display: flex;
+    justify-content: start;
+    padding-left:150px;
+
+    z-index: 10;
+    position: absolute;
+    width: 80%;
+}
+ 
+ .card-img-top{
+    width:200px;
+    padding: 40px;
+    color: #0fa797;
+    padding-top: 60px;
+ }

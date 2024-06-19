@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    font-size:40px ;
+    font-weight:700 ;
+    color: #fff;
+    padding-top: 40px;    
+}
+.para-text{
+    display: flex;
+    justify-content: center;
+    padding:0px 370px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+.request-text{
+    text-align: center;
+    border:1px ridge  #07294B;
+    color:white;
+    font-weight: bold;
+    background-color: #07294B; 
+    padding: 10px 20px;
+    margin:60px 570px;
+}
+.community {
+    background-image: url('cummunity.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 72vh;
+}
+.mycontainer {
+    display: flex;
+    justify-content: center;
+ 
+    margin-left: 300px;
+    margin-right: 250px;
+   
+}
+.hiring-text{
+    line-height: 1px;
+}
+.my{
+     padding-top: 1px;
+}
+.mycontainer > div { 
+      width:33%;
+      background-color: #07294B;
+      color: white;
+      border:1px ridge #07294B;
+      padding: 25px 25px;
+}
+.mycontainer h2{
+color: orange; 
+font-size: 1cm;
+
+}    
+   
