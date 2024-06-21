@@ -84,7 +84,7 @@ body {
 }
 .sec2 {
     display: flex;
-    padding-left: 300px;
+    padding-left: 200px;
 }
 .left {
     margin-left: 100px;
@@ -287,6 +287,7 @@ padding: 10px;
     border: 2px solid black;
     border-radius: 7px;
     padding: 0px 20px;
+    margin: 10px;
 }
 p {
     font-weight: 400;
@@ -302,10 +303,10 @@ p {
     border: 2px solid black;
     border-radius: 7px;
     padding: 0px 20px;
+    margin: 10px;
 }
 .artical2 img {
     top: 20px;
-    left: 30px;
     border: 2px solid black;
     position: relative; 
     border-radius: 7px;  
@@ -321,10 +322,10 @@ p {
     border: 2px solid black;
     border-radius: 7px;
     padding: 0px 20px;
+    margin: 10px;
 }
 .artical3 img {
     position: relative;
-    left: 10px;
     border: 1px solid black;
     border-radius: 7px;
 }
@@ -339,7 +340,7 @@ p {
     border-radius: 7px;
     position: relative;
     width: 720px;
-    left: 400px;
+    left: 300px;
     top: 50px;
     padding: 10px;
     display: flex;
@@ -469,7 +470,7 @@ p {
     font-family: "Roboto", sans-serif ;
     text-align: center;
     margin-left: 400px;
-    padding: 100px 248px;
+    padding: 80px 185px;
     display: flex;
 }
 .template6 {
@@ -540,7 +541,6 @@ p {
     border: 1px solid black;
     margin: 5px;
     text-decoration: none;
-   
     font-weight: 400;
     padding: 30px;
     color: black;
@@ -641,7 +641,7 @@ p {
     border-radius: 7px;
     position: relative;
     width: 550px;
-    left: 500px;
+    left: 420px;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -721,7 +721,7 @@ p {
     border-radius: 7px;
     position: relative;
     width: 770px;
-    left: 310px;
+    left: 200px;
     padding: 15px;
     display: flex;
     align-items: center;
